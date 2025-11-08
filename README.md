@@ -1,4 +1,4 @@
-# dotfiles
+# dotFiles
 
 My personal dotfiles for **Hyprland**, **Hyprpaper**, **Waybar**, and **Fastfetch**.  
 This repo is mainly for backup and syncing across my systems, but feel free to use or fork it.  
