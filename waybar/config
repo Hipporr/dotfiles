@@ -1,0 +1,72 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 40,
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": ["tray", "pulseaudio", "cpu", "memory", "clock"],
+
+  "tray": {
+    "spacing": 5,
+  },
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+  },
+
+  "wlr/taskbar": {
+    "format": "{icon}   {title:.25}",
+    "markup": true,
+    "icon-size": 20,
+    "on-click": "activate",
+  },
+
+  "clock": {
+    "format": "{:>%I:%M:%S \n %m/%d/%y}",
+    "interval": 1,
+    "align": 1,
+    "justify": "right",
+  },
+
+  "temperature": {
+        "critical-threshold": 80,
+        "format": "  [{temperatureC}°C]",
+    },
+
+"memory": {
+        "format": "  [mem {percentage}%]",
+        "interval": 2,
+
+        "states": {
+            "critical": 80
+        }
+    },
+
+  
+    "cpu": {
+        "format": "  [cpu {usage}%]",
+        "interval": 2,
+
+        "states": {
+            "critical": 90
+        }
+    },
+
+    "pulseaudio": {
+        "scroll-step": 5,
+        "max-volume": 150,
+        "format": "  [vol {volume}%]",
+        "format-bluetooth": "  [vol {volume}%]",
+        "nospacing": 1,
+        "on-click": "pavucontrol",
+        "tooltip": false
+  },
+
+
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": "Power Off",
+    "on-click": "poweroff",
+  },
+}
