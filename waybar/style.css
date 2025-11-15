@@ -1,5 +1,7 @@
 * {
-  /* font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
+  min-height: 0;
+  margin: 0;
+  padding: 0;
   font-family: "Terminus (TTF)";
   border: none;
   text-shadow: none;
@@ -7,16 +9,12 @@
   border-radius: 0;
   font-weight: 500;
   font-size: 14px;
+  padding-bottom: 0;
 }
 
 window#waybar {
   background-color: rgba(0, 0, 0, 1);
   color: #529655;
-
-  padding: 0 5px;
-
-  transition-property: background-color;
-  transition-duration: 0.5s;
 }
 
 .modules-right {
@@ -24,7 +22,7 @@ window#waybar {
 }
 
 #clock {
-  font-size: 12px;
+  font-size: 14px;
   margin-left: 10px;
 }
 
@@ -34,31 +32,36 @@ window#waybar {
 /*   margin-right: 10px; */
 /* } */
 
-#taskbar button {
-  min-width: 175px;
-
-  border-radius: 0;
-  border-bottom: 3px solid #969696;
-
-  transition-property: border-color;
-  transition-duration: 150ms;
+#window {
+	margin: 0px 5px 0px 5px;
+	padding-left: 10px;
+	padding-right: 7px;
+	background-color: #529655;
+	color: White;
 }
 
-#taskbar button.active {
-  border-bottom: 3px solid #529655;
+window#waybar.empty #window {
+	background-color: transparent;
+	border-bottom: none;
+	border-right: none;
 }
 
-#workspaces button {
-  border-bottom: 3px solid #969696;
-
-  transition-property: border-color;
-  transition-duration: 150ms;
+#workspaces {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
 }
 
 #workspaces button.active {
-  border-bottom: 3px solid #529655;
+    background: #529655; /* green background */
+    color: white; /* white text */
 }
 
 #workspaces button {
-  color: #529655;
+    border: none;
+    padding: 0px 10px;
+    background: transparent; /* no background for inactive */
+}
+
+#workspaces button {
+  color: Grey;
 }
