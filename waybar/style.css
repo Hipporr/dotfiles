@@ -13,17 +13,20 @@
 }
 
 window#waybar {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: #529655;
   color: #529655;
 }
 
 .modules-right {
-  padding: 0 10px;
+  padding: 0px;
+  margin: 0px;
 }
 
 #clock {
   font-size: 14px;
-  margin-left: 10px;
+  margin-left: -5px;
+  background-color: #101010;   
+  color: #8B8B8B
 }
 
 /* #custom-power { */
@@ -34,34 +37,48 @@ window#waybar {
 
 #window {
 	margin: 0px 5px 0px 5px;
-	padding-left: 10px;
+	padding-left: 5px;
 	padding-right: 7px;
 	background-color: #529655;
-	color: White;
+	color: #F7F8FA;
 }
 
 window#waybar.empty #window {
-	background-color: transparent;
-	border-bottom: none;
-	border-right: none;
+    background-color: transparent;
+    color: transparent;
 }
 
 #workspaces {
-  margin: 0px 0px 0px 0px;
-  padding: 0px;
+  background-color: #101010;
+  margin: 0;
+  padding-right: 5px;
 }
 
 #workspaces button.active {
     background: #529655; /* green background */
-    color: white; /* white text */
+    color: #F7F8FA;
 }
 
 #workspaces button {
     border: none;
     padding: 0px 10px;
-    background: transparent; /* no background for inactive */
+    background-color: #101010; /* no background for inactive */
 }
 
 #workspaces button {
-  color: Grey;
+  color: #8B8B8B;
+}
+
+#pulseaudio {
+ padding: 5px;
+ margin: 0px;
+ margin-right: 0px;
+ margin-left: -5px;
+ color: #8B8B8B;
+ background-color: #101010;
+}
+
+#tray {
+ padding-left: 5px;
+ background-color: #101010
 }
