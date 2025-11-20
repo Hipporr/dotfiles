@@ -1,7 +1,7 @@
 {
   "layer": "top",
   "position": "top",
-  "height": 25,
+  "height": 0,
 
   "modules-left": ["hyprland/workspaces", "hyprland/window"],
   "modules-center": [""],
@@ -23,7 +23,7 @@
   },
 
   "clock": {
-    "format": "{:%a %b %d %H:%M:%S %Y}",
+    "format": "{:%a %b %d %H:%M:%S %Y  }",
     "interval": 1,
     "align": 1,
     "justify": "right",
@@ -56,7 +56,7 @@
     "pulseaudio": {
         "scroll-step": 5,
         "max-volume": 150,
-        "format": "  [vol {volume}%]",
+        "format": " [vol {volume}%] ",
         "format-bluetooth": "  [vol {volume}%]",
         "nospacing": 1,
         "on-click": "pavucontrol",
