@@ -13,6 +13,7 @@ set $down j
 set $up k
 set $right l
 
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 exec autotiling
 font pango: Terminus (TTF) 12
 
