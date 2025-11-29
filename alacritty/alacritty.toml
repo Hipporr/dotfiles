@@ -1,0 +1,7 @@
+[window]
+blur = true
+opacity = 1
+
+[font]
+normal = { family = "Terminus (TTF)", style = "Regular" }
+size = 12.00
