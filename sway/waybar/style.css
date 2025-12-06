@@ -5,7 +5,7 @@
 }
 
 window#waybar {
-    background-color: rgba(16, 16, 16, 1);
+    background-color: rgba(40, 40, 40, 1);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -52,7 +52,7 @@ button:hover {
 #workspaces button {
     margin: 2px;
     padding: 0px 8px;
-    background-color: #2B2B2B;
+    background-color: #181818;
     color: #999999;
 }
 
@@ -121,7 +121,7 @@ window#waybar.empty #window {
 }
 
 #clock {
-    color: #999999;
+    color: #8EC07C;
 }
 
 @keyframes blink {
@@ -183,7 +183,7 @@ label:focus {
 }
 
 #network {
-	color: #999999;
+	color: #FB4934;
 }
 
 #network.disconnected {
@@ -192,7 +192,7 @@ label:focus {
 
 #pulseaudio {
     margin-right: -2px;
-    color: #999999;
+    color: #FE8019;
 }
 
 #pulseaudio.muted {
@@ -270,7 +270,7 @@ label:focus {
 }
 
 #language {
-    color: #999999;
+    color: #83A598;
     padding: 0 0px;
     margin: 0 0px;
     min-width: 16px;
