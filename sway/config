@@ -13,9 +13,7 @@ set $down j
 set $up k
 set $right l
 
-exec /usr/lib/xdg-desktop-portal-wlr &
-exec /usr/lib/xdg-desktop-portal -r
-exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+exec /usr/lib/hyprpolkitagent/hyprpolkitagent
 exec autotiling
 font pango: Terminus (TTF) 12
 
@@ -27,15 +25,15 @@ set $menu wofi --show drun
 # Active window (everything green)
 client.focused          #529655 #529655 #F4F5F9 #529655
 # Inactive window
-client.unfocused        #101010 #101010 #F4F5F9 #101010
+client.unfocused        #181818 #181818 #181818 #181818
 
 # Optional: inactive but focused elsewhere
-client.focused_inactive #101010 #101010 #F4F5F9 #101010
+client.focused_inactive #181818 #181818 #F4F5F9 #181818
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/wallpaper.png fill
+output * bg /usr/share/backgrounds/sway/wallpaper7.jpg fill
 #
 # Example configuration:
 #
