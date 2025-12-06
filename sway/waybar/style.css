@@ -50,8 +50,8 @@ button:hover {
 }
 
 #workspaces button {
+    margin: 2px;
     padding: 0px 8px;
-    margin: 2px 1px;
     background-color: #2B2B2B;
     color: #999999;
 }
@@ -61,12 +61,13 @@ button:hover {
 }
 
 #workspaces button.focused, #workspaces button.active {
-	margin: 2px;
+	  margin: 2px;
     background-color: #529655;
     color: #FFFFFF;
 }
 
 #workspaces button.urgent {
+    margin: 2px;
     background-color: #eb4d4b;
 }
 
@@ -91,12 +92,12 @@ button:hover {
 #scratchpad,
 #power-profiles-daemon,
 #mpd {
-    padding: 0 7px;
+    padding: 0 10px;
     color: #ffffff;
 }
 
 #workspaces {
-    margin: 0 4px;
+    margin: 0px;
 }
 
 #window {
@@ -190,6 +191,7 @@ label:focus {
 }
 
 #pulseaudio {
+    margin-right: -2px;
     color: #999999;
 }
 
@@ -230,6 +232,7 @@ label:focus {
 }
 
 #tray {
+    margin: -6px;
 }
 
 #tray > .passive {
@@ -268,8 +271,8 @@ label:focus {
 
 #language {
     color: #999999;
-    padding: 0 1px;
-    margin: 0 1px;
+    padding: 0 0px;
+    margin: 0 0px;
     min-width: 16px;
 }
 
