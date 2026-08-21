@@ -13,6 +13,8 @@ This repo is mainly for backup and syncing across my systems, but feel free to u
 
 ---
 
+2026 edit: I DONT FUCKING KNOW THIS SHIT IS SO MESSY JUST TRY TO FIND THE STUFF YOU NEED!!@!$
+
 ## License
 
 GNU GENERAL PUBLIC LICENSE Version 3
